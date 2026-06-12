@@ -1,152 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Uno Interim | Interim Management</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #1f2933;
-      background: #f7f8fa;
-      line-height: 1.6;
-    }
-    header {
-      background: #0f172a;
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 42px;
-    }
-    header p {
-      font-size: 20px;
-      margin-top: 15px;
-    }
-    section {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 50px 20px;
-    }
-    h2 {
-      color: #0f172a;
-      margin-bottom: 15px;
-    }
-    .card {
-      background: white;
-      padding: 25px;
-      margin: 20px 0;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .contact {
-      background: #e5e7eb;
-      border-radius: 10px;
-      padding: 25px;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 8px 0 16px;
-      border: 1px solid #cbd5e1;
-      border-radius: 6px;
-      font-size: 15px;
-    }
-    button {
-      background: #0f172a;
-      color: white;
-      border: none;
-      padding: 12px 22px;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    footer {
-      text-align: center;
-      padding: 25px;
-      background: #0f172a;
-      color: white;
-      font-size: 14px;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uno Interim – Rust. Structuur. Resultaat.</title>
+  <meta name="description" content="Uno Interim helpt bedrijfsbureaus, projectorganisaties en operationele teams met rust, structuur en resultaat.">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <a class="skip" href="#inhoud">Ga naar de inhoud</a>
 
-<header>
-  <h1>Uno Interim</h1>
-  <p>Interim management voor bedrijfsbureaus, operations, supply chain en projectorganisaties</p>
-</header>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">Uno Interim</div>
+      <div class="tagline">voor rust, structuur en resultaat</div>
+    </div>
+    <nav class="nav" aria-label="Hoofdmenu">
+      <a href="#home">Home</a>
+      <a href="#interim">Interim management</a>
+      <a href="#wat-ik-doe">Wat ik doe</a>
+      <a href="#over">Over Edwin</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<section>
-  <div class="card">
-    <h2>Rust, structuur en resultaat</h2>
-    <p>
-      Uno Interim helpt organisaties die tijdelijk extra slagkracht nodig hebben.
-      Met een praktische en resultaatgerichte aanpak breng ik overzicht, verbeter ik processen
-      en zorg ik dat teams weer gericht kunnen sturen op uitvoering en resultaat.
-    </p>
-  </div>
+  <main id="inhoud">
+    <section id="home" class="hero section">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">Uno Interim</p>
+          <h1>Rust. Structuur. Resultaat.</h1>
+          <p class="lead">Tijdelijke versterking voor bedrijfsbureaus, projectorganisaties en operationele teams.</p>
+          <p>Organisaties schakelen mij in wanneer groei, verandering of werkdruk vraagt om extra managementkracht. Ik breng overzicht, maak afspraken duidelijk en zorg dat teams weer grip krijgen op hun werk.</p>
+          <a class="button" href="mailto:edwinholla1@outlook.com">Neem contact op</a>
+        </div>
+        <figure class="image-card placeholder">
+          <div class="placeholder-text">Zakelijke profielfoto<br><span>later toevoegen</span></div>
+        </figure>
+      </div>
+    </section>
 
-  <div class="card">
-    <h2>Waar Uno Interim bij helpt</h2>
-    <ul>
-      <li>Interim management binnen bedrijfsbureau en operations</li>
-      <li>Structuur brengen in projectorganisaties</li>
-      <li>Verbeteren van planning, processen en samenwerking</li>
-      <li>Aansturen van projectleiders, werkvoorbereiders en ondersteunende teams</li>
-      <li>Opstarten of verbeteren van supply chain en logistieke processen</li>
-    </ul>
-  </div>
+    <section class="section soft">
+      <div class="container">
+        <h2>Waar ik organisaties mee help</h2>
+        <div class="cards">
+          <article><h3>Groei zonder gripverlies</h3><p>Structuur aanbrengen terwijl de organisatie in beweging blijft.</p></article>
+          <article><h3>Achterstanden wegwerken</h3><p>Prioriteiten bepalen, werk verdelen en voortgang zichtbaar maken.</p></article>
+          <article><h3>Teams beter laten samenwerken</h3><p>Rollen, verantwoordelijkheden en afspraken verduidelijken.</p></article>
+          <article><h3>Planning beheersbaar maken</h3><p>Meer grip op capaciteit, werkvoorraad en leverbetrouwbaarheid.</p></article>
+        </div>
+      </div>
+    </section>
 
-  <div class="card">
-    <h2>Mijn aanpak</h2>
-    <p>
-      Ik werk hands-on, duidelijk en met oog voor mensen. Geen dikke rapporten,
-      maar snel inzicht in wat er speelt, heldere keuzes en praktische stappen vooruit.
-      Daarbij verbind ik strategie met de dagelijkse uitvoering.
-    </p>
-  </div>
+    <section id="interim" class="section">
+      <div class="container two-col reverse">
+        <figure class="image-card"><img src="assets/over-edwin.jpg" alt="Edwin buiten in een berglandschap"></figure>
+        <div>
+          <h2>Tijdelijke managementcapaciteit met blijvend resultaat</h2>
+          <p>Een interimmanager moet meer doen dan een stoel bezetten. Ik stap in, analyseer de situatie, creëer overzicht en help teams om weer zelfstandig verder te kunnen.</p>
+          <ul class="checklist">
+            <li>Hoofd Bedrijfsbureau</li>
+            <li>Operations Management</li>
+            <li>Supply Chain Management</li>
+            <li>Projectorganisaties</li>
+            <li>Verandermanagement</li>
+            <li>Teamontwikkeling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <div class="card">
-    <h2>Voor wie</h2>
-    <p>
-      Uno Interim is inzetbaar voor bedrijven die tijdelijk versterking zoeken in aansturing,
-      procesverbetering of organisatieontwikkeling. Bijvoorbeeld bij groei, verandering,
-      achterstand in projecten of tijdelijke onderbezetting.
-    </p>
-  </div>
+    <section id="wat-ik-doe" class="section soft">
+      <div class="container">
+        <h2>Wat ik doe</h2>
+        <div class="service-list">
+          <article><h3>Bedrijfsbureau</h3><p>Grip op planning, werkvoorbereiding, calculatie en capaciteit.</p></article>
+          <article><h3>Operations</h3><p>Structuur in processen, teams en verantwoordelijkheden.</p></article>
+          <article><h3>Supply Chain</h3><p>Verbeteren van leverbetrouwbaarheid, voorraadbeheer en samenwerking tussen afdelingen.</p></article>
+          <article><h3>Projectorganisaties</h3><p>Professionaliseren van projectteams en verbeteren van sturing en samenwerking.</p></article>
+        </div>
+      </div>
+    </section>
 
-  <div class="contact">
-    <h2>Contact</h2>
-    <p>Neem contact op voor een kennismaking.</p>
+    <section id="over" class="section">
+      <div class="container narrow">
+        <h2>Over Edwin</h2>
+        <p>Mijn loopbaan speelt zich af op het snijvlak van operatie, projecten en organisatieontwikkeling.</p>
+        <p>Ik help organisaties die tijdelijk behoefte hebben aan extra managementkracht of behoefte hebben aan meer structuur, duidelijkheid en samenwerking.</p>
+        <p>Mensen omschrijven mij vaak als rustig, verbindend, pragmatisch, resultaatgericht en betrouwbaar.</p>
+      </div>
+      <div class="container collage-wrap">
+        <figure class="collage"><img src="assets/collage.jpg" alt="Collage van Edwin met familie, reizen en buitenactiviteiten"></figure>
+      </div>
+      <div class="container narrow quote-block">
+        <h2>Wat mij drijft</h2>
+        <p>Ik geloof dat duurzame resultaten ontstaan vanuit vertrouwen, duidelijke afspraken en een stabiele basis.</p>
+        <p>Naast mijn werk zijn gezin, sport en reizen belangrijke onderdelen van mijn leven. Ze houden mij scherp, geven energie en zorgen voor de balans die nodig is om langdurig goed te kunnen presteren.</p>
+        <blockquote>Mensen maken organisaties succesvol. Daarom kijk ik niet alleen naar processen en resultaten, maar ook naar samenwerking, eigenaarschap en vertrouwen.</blockquote>
+      </div>
+    </section>
 
-    <form action="mailto:info@unointerim.nl" method="post" enctype="text/plain">
-      <label>Naam</label>
-      <input type="text" name="naam" required>
+    <section class="section soft">
+      <div class="container">
+        <h2>Voorbeelden van opdrachten</h2>
+        <div class="cards">
+          <article><h3>Interim Hoofd Bedrijfsbureau</h3><p>Aansturen van planning, werkvoorbereiding, calculatie en projectondersteuning.</p></article>
+          <article><h3>Operations Manager</h3><p>Verbeteren van processen, prestaties en samenwerking tussen afdelingen.</p></article>
+          <article><h3>Supply Chain Manager</h3><p>Grip op voorraad, planning, inkoop en leverbetrouwbaarheid.</p></article>
+          <article><h3>Verandertrajecten</h3><p>Structuur aanbrengen, teams ontwikkelen en organisaties begeleiden tijdens groei of verandering.</p></article>
+        </div>
+      </div>
+    </section>
 
-      <label>E-mailadres</label>
-      <input type="email" name="email" required>
+    <section id="contact" class="section contact">
+      <div class="container narrow">
+        <h2>Kennismaken?</h2>
+        <p>Heeft uw organisatie tijdelijk behoefte aan extra managementcapaciteit of ondersteuning bij een veranderingstraject?</p>
+        <p><strong>Edwin Holla</strong><br>Uno Interim</p>
+        <p><a href="tel:+31629583965">+31 6 29583965</a><br><a href="mailto:edwinholla1@outlook.com">edwinholla1@outlook.com</a></p>
+        <a class="button" href="mailto:edwinholla1@outlook.com">Mail Edwin</a>
+      </div>
+    </section>
+  </main>
 
-      <label>Bericht</label>
-      <textarea name="bericht" rows="5" required></textarea>
-
-      <button type="submit">Versturen</button>
-    </form>
-  </div>
-</section>
-
-<footer>
-  © 2026 Uno Interim
-</footer>
-
+  <footer class="footer">
+    <p>Copyright © 2026 Uno Interim</p>
+  </footer>
 </body>
 </html>
-
-Let op: dit contactformulier opent je mailprogramma. Voor een echt formulier zonder hosting heb je later een gratis dienst nodig zoals Formspree.
